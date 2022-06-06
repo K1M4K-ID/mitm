@@ -53,7 +53,7 @@ xterm -title "starting arpspoof" -bg "#000000" -fg "#FFFFFF" -fa "Monospace" -fs
 }
 # start mitm proxy
 mitm(){
-./mitmproxy --mode transparent --ssl-insecure
+mitmproxy --mode transparent --ssl-insecure
 }
 interface
 kills
